@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<title>Greg Zone</title>
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./scripts/myScript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  </head>
+
+<body>
+
+<h1>This is Greg's First Webpage</h1>
+<p>This page is for playing with front end code</p>
+<p id="p01">This text should be blue</p>
+
+<p class="error"> This is an error text! Should be red <span style="border: 1px solid black">Hello World</span></p>
+<h2 classs="error"> This should not be red </h2>
+
+<p id="p01">This text should be blue too! But using ID so should not be using this again!! </p>
+
+Here is a link to W3 Schools: <a href="https://www.w3schools.com" target="_blank">This is a link to W3Schools</a><br>
+Here is a link to cnn.com: <a href="https://www.cnn.com" target="_blank">This is a link to CNN</a>
+
+<picture>
+    <source srcset="./images/1_rainy_day.jpg" media="(max-width: 600px)">
+    <source srcset="./images/1_rainy_day.jpg" media="(max-width: 1000px)">
+    <source srcset="./images/cyberpunk-wallpaper_102105675_292.jpg">
+    <img src="./images/cyberpunk-wallpaper_102105675_292.jpg" alt="Alt text - sorry something went wrong" style="width:auto;">
+  </picture>
+
+
+<!-- the class is applied to any element not specified in the style sheet; otherwise uses the defined one -->
+<div class="cities">
+    <h2>London</h2>
+    La la la la
+    <p>London is the capital of England.</p>
+  </div>
+
+  <button type="button"
+  onclick="document.getElementById('demo').innerHTML = Date()">
+  Click me to display Date and Time.
+    </button>
+
+  <p id="demo"> </p>
+
+  <button type="button" onclick="myFunction()">Try it</button>
+
+  <p id="demo2"> </p>
+  
+  <p>(myFunction is stored in an external file called "myScript.js")</p>
+  
+</body>
+</html>

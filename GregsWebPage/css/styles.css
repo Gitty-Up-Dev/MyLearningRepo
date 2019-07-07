@@ -1,0 +1,51 @@
+body {
+        background-color: powderblue;
+    }
+h1   {
+      color: green;
+      font-family: verdana;
+      font-size: 300%;
+    }
+p    {
+      color: rgb(179, 255, 0);
+      font-family: courier;
+      font-size: 160%;
+    }
+/* class with p element for errors */
+    p.error {
+      color: red;
+    }
+    .cities {
+      background-color: black;
+      color: brown;
+      margin: 20px;
+      padding: 20px;
+    } 
+#p01 {
+    color: rgb(0, 162, 255);
+    font-family: courier;
+    font-size: 100%;
+  }
+  a:link {
+    color: rgb(126, 128, 0); 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
